@@ -1,0 +1,68 @@
+
+# Python / FastAPI
+
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+
+# Model artifacts / dados
+
+
+# Modelo treinado 
+model_artifacts/
+*.bin
+*.pt
+*.ckpt
+
+# Dados locais
+*.csv
+*.xlsx
+*.xls
+data/
+datasets/
+
+
+# Logs
+
+
+*.log
+logs/
+
+# Ambiente / Config
+
+
+.env
+.env.*
+!.env.example
+
+
+# IDEs / OS
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+
+# Build / distribuição
+
+
+dist/
+build/

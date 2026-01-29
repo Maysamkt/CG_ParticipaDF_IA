@@ -1,0 +1,12 @@
+accelerate==1.12.0
+Faker==40.1.2
+numpy==2.3.5
+openpyxl==3.1.5
+pandas==3.0.0
+scikit-learn==1.8.0
+transformers==4.57.6
+
+# torch no requirements garante "instala e roda" em CPU
+torch==2.5.1
+# para GPU, usuário deve instalar torch com cuda conforme sua GPU
+# veja instruções no README
