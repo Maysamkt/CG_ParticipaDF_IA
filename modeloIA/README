@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 > Exemplo de `requirements.txt` (mínimo recomendado):
 
-```text
+```bash
 pandas>=2.0
 numpy>=1.24
 scikit-learn>=1.3
@@ -160,7 +160,7 @@ Recomendação prática (boas práticas):
 
 Coloque seu Excel em `data/`, por exemplo:
 
-```text
+```bash
 data/AMOSTRA_e-SIC.xlsx
 ```
 
