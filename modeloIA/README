@@ -19,7 +19,7 @@ O script lê um arquivo Excel, faz split (train/val/test), gera dados sintético
 ### Python
 
 - **Python 3.11 ou 3.12** (recomendado)
-  - Observação: algumas combinações com **Python 3.12/3.13** podem causar incompatibilidades com bibliotecas de ML dependendo do sistema/driver.
+  - Observação: dependendo do sistema e das versões de CUDA/PyTorch, podem ocorrer incompatibilidades.
 
 ### Hardware (opcional)
 
@@ -122,7 +122,7 @@ Com a venv ativada, execute:
 pip install -r requirements-gpu.txt
 ```
 
-> Observação: se sua GPU/driver exigir uma versão específica de CUDA, use os comandos oficiais do PyTorch.
+> O arquivo `requirements-gpu.txt` contém versões de PyTorch com suporte a CUDA, conforme a plataforma.
 
 ---
 
